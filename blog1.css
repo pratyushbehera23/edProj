@@ -1,0 +1,55 @@
+.tileContainer{
+    box-shadow: 0 3px 3px gray;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:380px;
+    height: 350px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.tileComponent1{
+    float: none;
+    height: 65%;
+}
+
+.tileComponent2{
+    float: left;
+    margin-top: 20px;
+}
+
+#pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.componentHeading{
+    text-align: center;
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+    margin: 0px 20px 10px 20px;
+}
+
+.componentSubHeading{
+    text-align: left;
+    color:gray;
+    font-size:14px;
+    margin: 0px 20px 20px 20px;
+}
+
+
+
+.hm{
+    border-color: violet;
+}
+
+.tileContainer:hover{
+    flex-grow: 2.5;
+}
+
+.container{
+    text-align: center;
+}

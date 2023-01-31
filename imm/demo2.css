@@ -1,0 +1,164 @@
+.imageContainer{
+    background: url('images/nood.jpg');
+    border-style: solid ;
+    border-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: auto;
+}
+
+#logo{
+    text-align: center;
+    color:#d84333;
+    font-weight: bold;
+    font-size: 95px;
+    background-color:white;
+    height:140px;
+    width:140px;
+    margin:auto;
+    border-radius:50%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.heading{
+    text-align:center;
+    color:white;
+    font-size:36px;
+
+}
+
+.locationSelector{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.locationDropDown{
+    width:250px;
+    height:48px;
+    font-size: 20px;
+    border: none ;
+}
+
+.restaurantsinput{
+    border: none;
+    width:360px;
+    height:48px;
+    font-size: 20px;
+    margin-left:5px;
+    margin-top:10px
+}
+
+.quickSearchContainer{
+    margin-left:2px;
+    margin-top:50px
+}
+
+.quickSearchHeding{
+    text-align: left;
+    color: #d84333;
+    font-size:30px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.quickSearchSubHeding{
+    text-align: left;
+    color: gray;
+    line-height: .01;
+    letter-spacing: normal;
+    font-size:18px;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.first{
+    float: left;
+}
+
+.tileContainer{
+    box-shadow: 0 3px 6px gray;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:350px;
+    height: 140px;
+    background-color: white;
+    display: inline-block; 
+}
+
+.tileComponent1{
+    text-align: left;
+    width:50%;
+    float: left;
+}
+
+.tileComponent2{
+    width:50%;
+    float: left;
+    margin-top: 20px;
+}
+
+
+.componentHeading{
+    text-align: left;
+    color:black;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.componentSubHeading{
+    text-align: left;
+    color:gray;
+    font-size:14px
+}
+
+a{
+    text-decoration: none;
+    font-size:20px;
+}
+#more{
+    color:gray
+}
+#tw{
+    color:rgb(35, 162, 212);
+}
+#fb{
+    color:rgba(8, 65, 151, 0.781);
+}
+#yt{
+    color:rgb(214, 0, 0);
+}
+
+.container{
+    background-color: white;
+}
+
+.footr{
+    background-color: whitesmoke;
+}
+
+#tg{
+    color: tomato;
+}
+
+#tagg{
+	text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    background-color:transparent;
+    height:40px;
+    width:40px;
+    margin-left: 20px;
+}
+
+li{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}

@@ -1,0 +1,42 @@
+.container{
+    background-color: whitesmoke;
+}
+
+.tileContainer{
+    box-shadow: 0 3px 6px black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:600px;
+    height: 160px;
+    background-color: white;
+    display: inline-block;
+}
+
+.tileComponent1{
+    width: 50%;
+    float: left;
+}
+
+.tileComponent2{
+    width:50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.componentHeading{
+    text-align: left;
+    color:#192f60;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.componentSubHeading{
+    text-align: left;
+    color:gray;
+    font-size:14px
+}
+
+.first{
+    float: left;
+}
+
