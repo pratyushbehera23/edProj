@@ -33,7 +33,7 @@
 }
 
 .imageContainer{
-    background: url('img/macbookpro.jpg');
+    background: url('../img/macbookpro.jpg');
     border-style: solid ;
     border-color: white;
     background-repeat: no-repeat;
