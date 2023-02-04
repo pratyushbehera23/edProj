@@ -1,117 +1,107 @@
 <!DOCTYPE html5>
 <html>
-  <head>
-    <title>Edumato</title> 
-    <link href="images/logo.png" rel="icon"/>
-    <link href="inpage.css" rel="stylesheet"/>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
-  </head>
-
-  <body>
-    <div class="bar">
-      <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand"><b id="logo">Swapcode</b></a>
-              </div>
-
-              <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav navbar-right">
-                      <button type="button" class="btnn btn-primary"data-toggle="modal" data-target="#myModal">Create an Account</button>
-                      <button type="button" class="btnn btn-primary"data-toggle="modal" data-target="#myModal">Login</button>
-                      <div id="myModal" class="modal fade" role="dialog">
-                          <div class="modal-dialog">
-                              <div class="modal-content">
-                                <center>
-                                  <div class="modal-header">
-                                      <button type="button" class="close" data-dismiss="modal">&times</button>
-                                      <h1 class="modal-title"><FONT color=lightblue>Login</FONT></h1>
-                                  </div>
-                                  <div class="modal-body">
-                                    <label>First Name</label>
-                                    <input type="text"></input><br><br>
-                                    <label>Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                                    <input type="number"></input><br><br>
-                                    <label>Address &nbsp;&nbsp;&nbsp;</label>
-                                    <input type="text"></input><br><br>
-                                    <label>Phone no &nbsp;</label>
-                                    <input type="number"></input><br><br>
-                                    <label>E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                                    <input type="text"></input><br><br>
-                                  </div>
-                                  <div class="modal-footer">
-                                      <button type="button" class="btn btn-primary" data-dismiss="modal">close</button>
-                                  </div>
-                                </center>
-                              </div>
-                          </div>
-                      </div>
-                  </ul>
-              </div>
-          </div>
-      </nav>
-    </div>
-
-    <br>
-    <main>
-      <div class="imageContainer">
-        <button type="button" class="btn">Image Gallery</button>
-      </div>
-      <br>
-
-      <button type="button" class="btn btn-primary"><b>Buy Now</b></button>
-
-      <h1 id="hd">Macbook Pro</h1>
-        <div class="tabs">
-          <div class="tab">
-            <input name="checkbox-tabs-group" type="radio" id="checkbox1" class="checkboxtab" checked>
-            <label for="checkbox1">Details</label>
-            <div class="content">
-              <h3>Specifications</h3>
-              <div class="type">
-                <h4>RAM : 8 GB</h4>
-                <h4>ROM : 1 TB</h4>
-                <h4>Graphics : Nvidea RTX 2GB</h4>
-              </div>
-              <div class="cost">
-                <h4>Retina screen</h4>
-                <h4>Touch Bar</h4><br>
-                <h4>Rs 2,40,000</h4>
-              </div>
+<head>
+  <title>Edumato</title> 
+  <link href="images/logo.png" rel="icon"/>
+  <link href="inpage.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="bar">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"><b id="logo">Swapcode</b></a>
             </div>
-          </div>
-        
-          <div class="tab">
-            <input name="checkbox-tabs-group" type="radio" id="checkbox2" class="checkboxtab">
-            <label for="checkbox2">Reviews</label>
-            <div class="content">
-              <h3>Details</h3>
-              <div class="type">
-                <h4>first : 5</h4>
-                <h4>second : 4</h4>
-                <h4>third : 4.5</h4>
-              </div>
-        
-              <div class="address">
-                <h3>Order : Apoloy tech.ltd</h3>
-                <p>Shop 2b, SR-Complex, Kotra road, Mumbai, Maharashtra, India</p>
-              </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <button type="button" class="btnn btn-primary"data-toggle="modal" data-target="#myModal">Create an Account</button>
+                    <button type="button" class="btnn btn-primary"data-toggle="modal" data-target="#myModal">Login</button>
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                              <center>
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                                    <h1 class="modal-title"><FONT color=lightblue>Login</FONT></h1>
+                                </div>
+                                <div class="modal-body">
+                                  <label>First Name</label>
+                                  <input type="text"></input><br><br>
+                                  <label>Age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                  <input type="number"></input><br><br>
+                                  <label>Address &nbsp;&nbsp;&nbsp;</label>
+                                  <input type="text"></input><br><br>
+                                  <label>Phone no &nbsp;</label>
+                                  <input type="number"></input><br><br>
+                                  <label>E-mail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                  <input type="text"></input><br><br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">close</button>
+                                </div>
+                              </center>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+  <br>
+  <main>
+    <div class="imageContainer">
+      <button type="button" class="btn">Image Gallery</button>
+    </div>
+    <br>
+
+    <button type="button" class="btn btn-primary"><b>Buy Now</b></button>
+
+    <h1 id="hd">Macbook Pro</h1>
+      <div class="tabs">
+        <div class="tab">
+          <input name="checkbox-tabs-group" type="radio" id="checkbox1" class="checkboxtab" checked>
+          <label for="checkbox1">Details</label>
+          <div class="content">
+            <h3>Specifications</h3>
+            <div class="type">
+              <h4>RAM : 8 GB</h4>
+              <h4>ROM : 1 TB</h4>
+              <h4>Graphics : Nvidea RTX 2GB</h4>
+            </div>
+            <div class="cost">
+              <h4>Retina screen</h4>
+              <h4>Touch Bar</h4><br>
+              <h4>Rs 2,40,000</h4>
             </div>
           </div>
         </div>
-    
-    </main>
-
-  </body>
-
+      
+        <div class="tab">
+          <input name="checkbox-tabs-group" type="radio" id="checkbox2" class="checkboxtab">
+          <label for="checkbox2">Reviews</label>
+          <div class="content">
+            <h3>Details</h3>
+            <div class="type">
+              <h4>first : 5</h4>
+              <h4>second : 4</h4>
+              <h4>third : 4.5</h4>
+            </div>
+      
+            <div class="address">
+              <h3>Order : Apoloy tech.ltd</h3>
+              <p>Shop 2b, SR-Complex, Kotra road, Mumbai, Maharashtra, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+</body>
 </html>
