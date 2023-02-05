@@ -1,13 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url(img/gadgets.jpg);
+    background-image: url(../img/gadgets.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -183,4 +177,19 @@ footer{
     gap: 1rem;
     align-items: center;
     justify-content: center;
+}
+.socials img{
+    width: 25px;
+    height: 25px;
+}
+
+/* ------ */
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#hm{
+    background: #000;
 }
